@@ -1,0 +1,539 @@
+<!doctype html>
+<html lang="en">
+
+<link rel="stylesheet" href="css/main.min.css">
+<title>Profile | Agents</title>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="theme-color" content="#fff">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,500,700,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700,900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/main.min.css">
+    
+    
+    <header class="header">
+    	<div class="container container-page">
+    		<nav class="navbar navbar-expand-md">
+    			<a class="" href="#">
+    		  		<div class="main-logo">
+    		  			<img src="img/logo.png" alt="...">
+    		  		</div>
+    		  	</a>
+    		  	<button class="navbar-toggler" type="button"  data-target="#navbar1" aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
+    				    <span class="navbar-toggler-icon"></span>
+    			</button>
+    		  	<div class="collapse navbar-collapse" id="navbar1">
+    		  		<div class="d-flex justify-content-between"
+    			  		<a class="" href="#">
+    			  			<div class="main-logo d-flex d-md-none mb-4">
+    			  				<img src="img/logo.png" alt="...">
+    			  			</div>
+    			  		</a>
+    			  		<span class="close-menu d-block d-md-none">  </span>
+    		  		</div>
+    		    	<ul class="navbar-nav">
+    		    		<li class="nav-item dropdown">
+    		        		<a class="nav-link dropdown-toggle p-0" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dashboard</a>
+    		        		<div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+    		        			<div class="dropdown-menuWrap">
+    		          				<a class="dropdown-item" href="#">Link 1</a>
+    		          				<a class="dropdown-item" href="#">Link 2</a>
+    		          				<a class="dropdown-item" href="#">Link 3</a>
+    		          				<a class="dropdown-item" href="#">Link 4</a>
+    		          			</div>
+    		        		</div>
+    		      		</li>
+    		      		<li class="nav-item dropdown">
+    		        		<a class="nav-link dropdown-toggle p-0" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Inbox</a>
+    		        		<div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+    		        			<div class="dropdown-menuWrap">
+    			          			<a class="dropdown-item" href="#">Link 1</a>
+    		          				<a class="dropdown-item" href="#">Link 2</a>
+    		          				<a class="dropdown-item" href="#">Link 3</a>
+    		          				<a class="dropdown-item" href="#">Link 4</a>
+    		          			</div>
+    		        		</div>
+    		        	</li>
+    		        	<li class="nav-item dropdown">
+    		        		<a class="nav-link p-0" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Login</a>
+    		        		</div>
+    		        	</li>
+    		    	</ul>
+    			</div>
+    	    </nav>
+    	</div>
+    </header>
+</head>
+
+<body>
+
+<div class="pageProfileAgents">
+    <div class="container container-page">
+        <div class="content">
+            <div class="main-forms">
+                <div class="row main-forms__tabs">
+                    <div class=" col-12 main-forms__tabs-container d-flex">
+                        <div class="main-forms__tabs-item w-50 active">
+                            <label class="d-flex flex-column">
+                                <input class="input-hidden" type="radio" value=1  checked="checked" name="choose-pr_ag" />
+                                <span>pROFILE</span>
+                            </label>
+                        </div>
+                        <div class="main-forms__tabs-item w-50">
+                            <label class="d-flex flex-column">
+                                <input class="input-hidden" type="radio" value=2 name="choose-pr_ag" />
+                                <span>aGENTS</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row best-deals__Wrap ml-xl-0 mr-xl-0 m-auto">
+                    <div class="col-12 p-0">
+                        <div class="title">
+							Complete your profile
+						</div>
+						<div class="row m-0 profile">
+							<div class="col-12 col-xl-6 p-0 pr-xl-3 pl-xl-0">
+								<div class="company">
+									<div class="form-title">
+                    					Company
+                    				</div>
+                    				<form method="post" action="" enctype="multipart/form-data">
+                    					<div class="form-group mb-3 mb-md-4">
+			                                <label for="inputCompName">Company Legal Name</label>
+		                                	<input type="text" class="form-control" id="inputCompName" placeholder="Enter your company legal name">
+		                                	<span class="check"> </span>
+			                            </div>
+			                            <div class="form-group mb-3 mb-md-4">
+			                                <label for="companyEmail">DUNS ID</label>
+			                                <div class="help-block">
+				                                <input type="email" class="form-control" id="companyEmail" aria-describedby="emailHelp" placeholder="Enter your DUNS ID<" autocomplete="off">
+				                                <span class="check"> </span>
+				                                <div class="help">Text for help</div>
+				                            </div>
+			                            </div>
+			                            <div class="form-group mb-3 mb-md-4">
+			                                <label for="companyAdress">Company Address</label>
+		                                	<input type="text" class="form-control" id="companyAdress" placeholder="Enter your company address">
+		                                	<span class="check"> </span>
+			                            </div>
+			                            <div class="form-group mb-3 mb-md-4">
+			                                <label for="companyCity">City</label>
+		                                	<input type="text" class="form-control" id="companyCity" placeholder="Enter your company city">
+		                                	<span class="check"> </span>
+			                            </div>
+			                            <div class="form-group mb-3 mb-md-4">
+			                                <label for="companyState">State</label>
+		                                	<input type="text" class="form-control" id="companyState" placeholder="Enter your company state">
+		                                	<span class="check"> </span>
+			                            </div>
+			                            <div class="form-group mb-3 mb-md-4">
+			                                <label for="companyZipCode">Zip-code</label>
+			                                <div class="help-block">
+			                                	<input type="tel" class="form-control" id="companyZipCode" placeholder="Enter your company ZipCode" pattern="[0-9]{,6}">
+			                                	<span class="check"> </span>
+			                                	<div class="help">Text for help</div>
+				                            </div>
+			                            </div>
+			                            <div class="form-check mb-3 mb-md-4">
+			                                <input type="checkbox" class="form-check-input" id="checkForCompany">
+			                                <label class="form-check-label" for="checkForCompany"> Procuring power for this location</label>
+			                            </div>
+			                            <div class="form-group mb-3 mb-md-4 hidden" id="Profile__companyAcc">
+			                                <label for="companyAcc">ESIID or Meter ID or Utility Account Number</label>
+			                                <div class="help-block">
+		                                		<input type="text" class="form-control" id="companyAcc" placeholder="Enter ESIID or Meter ID or Account Number">
+		                                		<span class="check"> </span>
+		                                		<div class="help">Text for help</div>
+		                                	</div>
+		                                </div>
+			                            <p class="last-location">
+			                            	Last 3 months bills for this location
+			                            </p>
+			                            <div class="box" >
+											<div class="box__input">
+												<input class="box__file d-none" type="file" name="files[]" id="file" data-multiple-caption="{count} files selected" multiple />
+												<span class="d-none d-xl-block pr-1">  Drag & drop your file or </span> 
+											 	<label for="file">
+											 		<span class="box__dragndrop"></span><span class="text-browse"> Browse <span class="mob-text d-inline-block d-xl-none">  your file</span></span>
+
+											 	</label>
+											 	<button class="box__button d-none" type="submit">Upload</button>
+											</div>
+											<!--<div class="box__uploading">Uploading&hellip;</div>
+											<div class="box__success">Done!</div>
+											<div class="box__error">Error! <span></span>.</div>-->
+										</div>
+                    				</form>
+								</div>
+							</div>
+							<div class="col-12 col-xl-6 p-0 pl-xl-3 pr-xl-0">
+								<div class="form-title">
+                					User
+                				</div>
+                				<form>
+                					<div class="form-group mb-3 mb-md-4">
+		                                <label for="nameFirstLast">Your First and Last Name</label>
+		                                <input type="text" class="form-control" id="nameFirstLast" placeholder="Enter your first and last name">
+		                                <span class="check"> </span>
+		                            </div>
+		                            <div class="form-group mb-3 mb-md-4">
+		                                <label for="userEmail">Your Official Email</label>
+		                                <input type="email" class="form-control" id="userEmail" aria-describedby="emailHelp" placeholder="Enter your official email" autocomplete="off">
+		                                <span class="check"> </span>
+		                            </div>
+		                            <div class="form-group mb-3 mb-md-4">
+		                                <label for="userPhone">Phone number</label>
+		                                <input type="tel" class="form-control" id="userPhone" placeholder="Enter your phone number" pattern="[0-9]{5,10}" autocomplete="off">
+		                                <span class="check"> </span>
+		                            </div>
+		                            <div class="form-group mb-3 mb-md-4">
+		                                <label for="userAdress">Your Office Address</label>
+	                                	<input type="text" class="form-control" id="userAdress" placeholder="Enter your address">
+	                                	<span class="check"> </span>
+		                            </div>
+		                            <div class="form-group mb-3 mb-md-4">
+		                                <label for="userCity">City</label>
+	                                	<input type="text" class="form-control" id="userCity" placeholder="Enter your city">
+	                                	<span class="check"> </span>
+		                            </div>
+		                            <div class="form-group mb-3 mb-md-4">
+		                                <label for="userState">State</label>
+	                                	<input type="text" class="form-control" id="userState" placeholder="Enter your state">
+	                                	<span class="check"> </span>
+		                            </div>
+		                            <div class="form-group mb-3 mb-md-4">
+		                                <label for="userZipCode">Zip-code</label>
+		                                <div class="help-block">
+	                                		<input type="tel" class="form-control" id="userZipCode" placeholder="Enter your ZipCode" pattern="[0-9]{,6}">
+	                                		<span class="check"> </span>
+	                                		<div class="help">Text for help</div>
+				                        </div>
+		                            </div>
+		                            <div class="form-check mb-3 mb-md-4">
+			                                <input type="checkbox" class="form-check-input" id="checkForUser">
+			                                <label class="form-check-label" for="checkForUser"> Procuring power for this location</label>
+			                            </div>
+			                            <div class="form-group mb-3 mb-md-4 hidden" id="Profile__userAcc">
+			                                <label for="userAcc">ESIID or Meter ID or Utility Account Number</label>
+			                                <div class="help-block">
+		                                		<input type="text" class="form-control" id="userAcc" placeholder="Enter ESIID or Meter ID or Account Number">
+		                                		<span class="check"> </span>
+		                                		<div class="help">Text for help</div>
+		                                	</div>
+		                                </div>
+		                            <p class="last-location">
+		                            	Last 3 months bills for this location
+		                            </p>
+		                            <div class="box" >
+										<div class="box__input">
+											<input class="box__file d-none" type="file" name="files[]" id="file" data-multiple-caption="{count} files selected" multiple />
+											<span class="d-none d-xl-block pr-1">  Drag & drop your file or </span> 
+										 	<label for="file">
+										 		<span class="box__dragndrop"></span><span class="text-browse"> Browse <span class="mob-text d-inline-block d-xl-none">  your file</span></span>
+
+										 	</label>
+										 	<button class="box__button d-none" type="submit">Upload</button>
+										</div>
+										<!--<div class="box__uploading">Uploading&hellip;</div>
+										<div class="box__success">Done!</div>
+										<div class="box__error">Error! <span></span>.</div>-->
+									</div>
+                				</form>
+							</div>
+						</div>
+						 <div class="form-check check-profile">
+                            <input type="checkbox" class="form-check-input" id="check2">
+                            <label class="form-check-label" for="check2"> I give permission for EnergyX to pull above location's energy consumption data.</label>
+                        </div>
+                        <div class="newLocation hidden ml-0 mr-0">
+                        	<div class="close"> </div>
+                        	<div class="form-title">
+                        		New location
+                        	</div>
+                        	<form>
+                        		<div class="row m-0 d-flex justify-content-between">
+                        			<div class="col-12 col-xl-6 p-0 pr-xl-3 pl-0 newLocation-col ">
+                        				<div class="form-group mb-3 mb-md-4">
+			                                <label for="locateAddress">Address</label>
+			                                <input type="text" class="form-control" id="locateAddress" placeholder="Enter your Address">
+			                                <span class="check"> </span>
+			                            </div>
+			                            <div class="form-group mb-3 mb-md-4 pb-2">
+			                                <label for="locateCity">City</label>
+			                                <input type="text" class="form-control" id="locateCity"  placeholder="Enter your City" autocomplete="off">
+			                                <span class="check"> </span>
+			                            </div>
+			                            <div class="form-group mb-3 mb-md-4">
+			                                <label for="locateZipCode">Zip-code</label>
+			                                <div class="help-block">
+			                                	<input type="tel" class="form-control" id="locateZipCode" placeholder="Enter your ZipCode" pattern="[0-9]{,6}">
+			                                	<span class="check"> </span>
+			                                	<div class="help">Text for help</div>
+				                            </div>
+		                            	</div>
+                        			</div>
+                        			<div class="col-12 col-xl-6 p-0 pl-xl-3 newLocation-col">
+                        				<div class="form-group">
+			                                <label for="locateState">State</label>
+			                                <input type="text" class="form-control" id="locateState" placeholder="Enter your State">
+			                                <span class="check"> </span>
+			                            </div>
+			                            <div class="form-check check-profile mb-3 pb-1">
+				                            <input type="checkbox" class="form-check-input checkForAdd" id="checkForAdd1">
+				                            <label class="form-check-label" for="checkForAdd1"> Procuring power for this location.</label>
+				                        </div>
+			                            <div class="form-group hidden">
+			                                <label for="locateID">ESIID or Meter ID or Utility Account Number</label>
+			                                <div class="help-block">
+				                                <input type="email" class="form-control" id="locateID" aria-describedby="emailHelp" placeholder="Enter your ESIID or Meter ID or Utility Account Number" autocomplete="off">
+				                                <span class="check"> </span>
+				                                <div class="help">Text for help</div>
+				                            </div>
+			                            </div>
+		                            	<div class="form-group d-flex flex-column flex-md-row align-items-md-center">
+                                            <p class="last-location mb-md-0 upload">Past 3 months bill:</>
+                                            <label for="fileUpload"> ...Browse Files </label>
+                                            <div class="d-flex flex-column">
+                                                <input type="file" class="fileUpload" id="fileUpload" placeholder="">
+                                            </div>
+                                        </div>
+                        			</div>
+                        		</div>
+                        	</form>
+                        </div>
+                        <div class="newLocation hidden ml-0 mr-0">
+                        	<div class="close"> </div>
+                        	<div class="form-title">
+                        		New location
+                        	</div>
+                        	<form>
+                        		<div class="row m-0 d-flex justify-content-between">
+                        			<div class="col-12 col-xl-6 p-0 pr-xl-3 pl-0 newLocation-col ">
+                        				<div class="form-group mb-3 mb-md-4">
+			                                <label for="locateAddress">Address</label>
+			                                <input type="text" class="form-control" id="locateAddress" placeholder="Enter your Address">
+			                                <span class="check"> </span>
+			                            </div>
+			                            <div class="form-group mb-3 mb-md-4 pb-2">
+			                                <label for="locateCity">City</label>
+			                                <input type="text" class="form-control" id="locateCity"  placeholder="Enter your City" autocomplete="off">
+			                                <span class="check"> </span>
+			                            </div>
+			                            <div class="form-group mb-3 mb-md-4">
+			                                <label for="locateZipCode">Zip-code</label>
+			                                <div class="help-block">
+			                                	<input type="tel" class="form-control" id="locateZipCode" placeholder="Enter your ZipCode" pattern="[0-9]{,6}">
+			                                	<span class="check"> </span>
+			                                	<div class="help">Text for help</div>
+				                            </div>
+		                            	</div>
+                        			</div>
+                        			<div class="col-12 col-xl-6 p-0 pl-xl-3 newLocation-col">
+                        				<div class="form-group">
+			                                <label for="locateState">State</label>
+			                                <input type="text" class="form-control" id="locateState" placeholder="Enter your State">
+			                                <span class="check"> </span>
+			                            </div>
+			                            <div class="form-check check-profile mb-3 pb-1">
+				                            <input type="checkbox" class="form-check-input checkForAdd" id="check5">
+				                            <label class="form-check-label" for="check5"> Procuring power for this location.</label>
+				                        </div>
+			                            <div class="form-group hidden">
+			                                <label for="locateID">ESIID or Meter ID or Utility Account Number</label>
+			                                <div class="help-block">
+				                                <input type="email" class="form-control" id="locateID" aria-describedby="emailHelp" placeholder="Enter your ESIID or Meter ID or Utility Account Number" autocomplete="off">
+				                                <span class="check"> </span>
+												<div class="help">Text for help</div>
+				                            </div>			                            
+			                            </div>
+		                            	<div class="form-group d-flex flex-column flex-md-row align-items-md-center">
+                                            <p class="last-location mb-md-0 upload">Past 3 months bill:</>
+                                            <label for="fileUpload1"> ...Browse Files </label>
+                                            <div class="d-flex flex-column">
+                                                <input type="file" class="fileUpload1" id="fileUpload1" placeholder="">
+                                            </div>
+                                        </div>
+                        			</div>
+                        		</div>
+                        	</form>
+                        </div>
+                        <div class="addLocation">
+                        	<p>If you need to add more agents, use the click here:</p>
+                        	<div class="addLocation-btn">
+                        		Add Location
+                        	</div>
+                        </div>
+                        <button class="btn btn-details">
+                        	Submit Details
+                        </button>
+					</div>
+                </div>
+                <div class="row best-deals__Wrap" id="agent-pr">
+                    <div class="col-12 p-0">
+						<div class="title">
+							Add agents and Assign roles
+						</div>
+                        <div class="agent" id="main">
+                        	<div class="close"></div>
+                        	<div class="agent-title">
+                        		Agent #<span>1</span>
+                        	</div>
+                        	<form>
+                        		<div class="row m-0">
+                        			<div class="col-12 col-xl-6 p-0 pr-xl-3 pl-xl-0">
+                        				<div class="form-group mb-3 mb-md-4">
+			                                <label for="exampleInputName1">Full Name*</label>
+			                                <input type="text" class="form-control" id="exampleInputName1" placeholder="Enter your full name">
+			                                <span class="check"> </span>
+			                            </div>
+			                            <div class="form-group mb-3 mb-md-4">
+				                            <label for="exampleInputWork">Work</label>
+				                            <div class="help-block">
+					                            <input type="text" class="form-control" id="exampleInputWork"  placeholder="Enter your work" autocomplete="off">
+					                            <span class="check"> </span>
+					                            <div class="help">Text for help</div>
+				                            </div>
+			                            </div>
+			                            <div class="form-group" id="select-class">
+		                                    <label for="select-classification1"> Role:</label>
+		                                    <select type="text" class="form-control select" id="select-classification1" placeholder="">
+		                                        <option selected="selected">Select Role</option>
+		                                        <option value="white">Admin and Approver </option>
+		                                    </select>
+                                		</div>
+                        			</div>
+                        			<div class="col-12 col-xl-6 p-0 pl-xl-3 pr-xl-0">
+			                            <div class="form-group mb-3 mb-md-4">
+			                                <label for="exampleInputEmail1">E-mail address*</label>
+			                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email" autocomplete="off">
+			                                <span class="check"> </span>
+			                            </div>
+										<div class="form-group mb-3 mb-md-4">
+			                                <label for="exampleInputTel">Mobile</label>
+			                                <input type="tel" name="phone_number" list="tel-list" pattern="[0-9]{5,10}" class="form-control" id="exampleInputTel" placeholder="Enter your telephone" autocomplete="off">
+			                                <span class="check"> </span>
+			                            </div>
+                        			</div>
+                        		</div>
+                        	</form>
+                        </div>
+                        <div class="agent hidden">
+                        	<div class="close"> </div>
+                        	<div class="agent-title">
+                        		Agent #<span>2</span>
+                        	</div>
+                        	<form>
+                        		<div class="row m-0">
+                        			<div class="col-12 col-xl-6 p-0 pr-xl-3 pl-xl-0">
+                        				<div class="form-group mb-3 mb-md-4">
+			                                <label for="exampleInputName1">Full Name*</label>
+			                                <input type="text" class="form-control" id="exampleInputName1" placeholder="Enter your full name">
+			                                <span class="check"> </span>
+			                            </div>
+			                            <div class="form-group mb-3 mb-md-4">
+			                                <label for="exampleInputWork">Work</label>
+			                                <div class="help-block">
+				                                <input type="text" class="form-control" id="exampleInputWork"  placeholder="Enter your work" autocomplete="off">
+				                                <span class="check"> </span>
+				                                <div class="help"> Text for help</div>
+				                            </div>
+			                            </div>
+			                            <div class="form-group" id="select-class">
+		                                    <label for="select-classification2"> Role:</label>
+		                                    <select type="text" class="form-control select" id="select-classification2" placeholder="">
+		                                        <option selected="selected">Select Role</option>
+		                                        <option value="white">Admin and Approver </option>
+		                                    </select>
+                                		</div>
+                        			</div>
+                        			<div class="col-12 col-xl-6 p-0 pl-xl-3 pr-xl-0">
+			                            <div class="form-group mb-3 mb-md-4">
+			                                <label for="exampleInputEmail1">E-mail address*</label>
+			                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email" autocomplete="off">
+			                                <span class="check"> </span>
+			                            </div>
+										<div class="form-group mb-3 mb-md-4">
+			                                <label for="exampleInputTel">Mobile</label>
+			                                <input type="tel" name="phone_number" list="tel-list" pattern="[0-9]{5,10}" class="form-control" id="exampleInputTel" placeholder="Enter your telephone" autocomplete="off">
+			                                <span class="check"> </span>
+			                            </div>
+                        			</div>
+                        		</div>
+                        	</form>
+                        </div>
+                        <div class="agent hidden">
+                        	<div class="close"> </div>
+                        	<div class="agent-title">
+                        		Agent #<span>3</span>
+                        	</div>
+                        	<form>
+                        		<div class="row m-0">
+                        			<div class="col-12 col-xl-6 p-0 pr-xl-3 pl-xl-0">
+                        				<div class="form-group mb-3 mb-md-4">
+			                                <label for="exampleInputName1">Full Name*</label>
+			                                <input type="text" class="form-control" id="exampleInputName1" placeholder="Enter your full name">
+			                                <span class="check"> </span>
+			                            </div>
+			                            <div class="form-group mb-3 mb-md-4">
+			                                <label for="exampleInputWork">Work</label>
+			                                <div class="help-block">
+				                                <input type="text" class="form-control" id="exampleInputWork"  placeholder="Enter your work" autocomplete="off">
+				                                <span class="check"> </span>
+				                                <div class="help">Text for help</div>
+				                            </div>
+			                            </div>
+			                            <div class="form-group">
+		                                    <label for="select-classification3"> Role:</label>
+		                                    <select type="text" class="form-control select" id="select-classification3" placeholder="">
+		                                        <option selected="selected">Select Role</option>
+		                                        <option value="white">Admin and Approver </option>
+		                                    </select>
+                                		</div>
+                        			</div>
+                        			<div class="col-12 col-xl-6 p-0 pl-xl-3 pr-xl-0">
+			                            <div class="form-group mb-3 mb-md-4">
+			                                <label for="exampleInputEmail1">E-mail address*</label>
+			                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email" autocomplete="off">
+			                                <span class="check"> </span>
+			                            </div>
+										<div class="form-group mb-3 mb-md-4">
+			                                <label for="exampleInputTel">Mobile</label>
+			                                <input type="tel" name="phone_number" list="tel-list" pattern="[0-9]{5,10}" class="form-control" id="exampleInputTel" placeholder="Enter your telephone" autocomplete="off">
+			                                <span class="check"> </span>
+			                            </div>
+                        			</div>
+                        		</div>
+                        	</form>
+                        </div>
+                        <div class="addAgent">
+                        	<p>If you need to add more agents, use the click here:</p>
+                        	<div class="addAgent-btn">
+                        		Add Agent
+                        	</div>
+                        </div>
+                        <button class="btn btn-details">
+                        	Submit Details
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      
+    <script src="js/main.min.js"></script>
+    
+    <footer class="footer">
+    	<div class="container container-page">
+    		<p class="copyright"> © 2020, ENERGYX | All Rights Reserved </p>
+    	</div>
+    </footer>
+  </div>
+</body>
+</html>

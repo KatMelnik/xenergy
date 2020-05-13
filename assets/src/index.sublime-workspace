@@ -1,0 +1,656 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"paddi",
+				"padding-right\tproperty"
+			],
+			[
+				"PADD",
+				"padding-left\tproperty"
+			],
+			[
+				"paddin",
+				"padding-left\tproperty"
+			],
+			[
+				"margin-",
+				"margin-right\tproperty"
+			],
+			[
+				"margi",
+				"margin-left\tproperty"
+			],
+			[
+				"d-md-",
+				"d-md-none"
+			],
+			[
+				"padd",
+				"padding-left\tproperty"
+			],
+			[
+				"border",
+				"border-radius\tproperty"
+			],
+			[
+				"fl",
+				"flex-start\talign-items"
+			],
+			[
+				"ali",
+				"align-items\tproperty"
+			],
+			[
+				"ma",
+				"margin-bottom\tproperty"
+			],
+			[
+				"pr",
+				"pr-2"
+			],
+			[
+				"ba",
+				"background-repeat\tproperty"
+			],
+			[
+				"font-",
+				"font-size\tproperty"
+			],
+			[
+				"margin",
+				"margin-right\tproperty"
+			],
+			[
+				"n",
+				"none\tlist-style"
+			],
+			[
+				"font",
+				"font-weight\tproperty"
+			],
+			[
+				"d-",
+				"d-flex"
+			],
+			[
+				"ju",
+				"justify-content-between"
+			],
+			[
+				"border-",
+				"border-radius\tproperty"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"fo",
+				"font\tproperty"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"pad",
+				"padding-right\tproperty"
+			],
+			[
+				"pa",
+				"padding-left\tproperty"
+			],
+			[
+				"i",
+				"important"
+			],
+			[
+				"te",
+				"text-align\tproperty"
+			],
+			[
+				"f",
+				"flex-start\talign-items"
+			],
+			[
+				"max-",
+				"max-width\tproperty"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"has",
+				"hasClass"
+			],
+			[
+				"set",
+				"setTimeout"
+			],
+			[
+				"bo",
+				"border-top\tproperty"
+			],
+			[
+				"text",
+				"text-center"
+			],
+			[
+				"mar",
+				"margin-right\tproperty"
+			],
+			[
+				"co",
+				"content\tproperty"
+			],
+			[
+				"backgr",
+				"background-size\tproperty"
+			],
+			[
+				"b",
+				"bottom\tproperty"
+			],
+			[
+				"d",
+				"d-flex"
+			],
+			[
+				"tr",
+				"transparent\tbackground"
+			],
+			[
+				"arro",
+				"arrow-up"
+			],
+			[
+				"al",
+				"alert"
+			],
+			[
+				"ha",
+				"hasClass"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"borde",
+				"border-bottom\tproperty"
+			],
+			[
+				"p",
+				"p\tTag"
+			],
+			[
+				"bor",
+				"border-radius\tproperty"
+			],
+			[
+				"align",
+				"align-item-start"
+			],
+			[
+				"l",
+				"left\tbackground-position"
+			],
+			[
+				"c",
+				"cover\tbackground-size"
+			],
+			[
+				"fle",
+				"flex-direction\tproperty"
+			],
+			[
+				"inli",
+				"inline-block\tdisplay"
+			],
+			[
+				"in",
+				"inline\tdisplay"
+			],
+			[
+				"src",
+				"src\tAttr"
+			],
+			[
+				"a",
+				"a\tTag"
+			],
+			[
+				"flex",
+				"flex-direction\tproperty"
+			],
+			[
+				"border-r",
+				"border-right\tproperty"
+			],
+			[
+				"sp",
+				"space-between\tjustify-content"
+			],
+			[
+				"li",
+				"line-height\tproperty"
+			],
+			[
+				"pos",
+				"position\tproperty"
+			],
+			[
+				"Com",
+				"comment"
+			],
+			[
+				"s",
+				"space-between\tjustify-content"
+			],
+			[
+				"op",
+				"opacity\tproperty"
+			],
+			[
+				"list",
+				"list-style\tproperty"
+			],
+			[
+				"u",
+				"uppercase\ttext-transform"
+			],
+			[
+				"j",
+				"justify-content\tproperty"
+			],
+			[
+				"marg",
+				"margin-bottom\tproperty"
+			],
+			[
+				"fon-s",
+				"font-stretch\tproperty"
+			],
+			[
+				"shad",
+				"box-shadow\tproperty"
+			],
+			[
+				"min-",
+				"min-width\tproperty"
+			],
+			[
+				"maw",
+				"max-width\tproperty"
+			],
+			[
+				"text-de",
+				"text-decoration\tproperty"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"back",
+				"background\tproperty"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"fon-",
+				"font-size\tproperty"
+			],
+			[
+				"flex-",
+				"flex-direction\tproperty"
+			],
+			[
+				"font-si",
+				"font-size\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:ins",
+				"Package Control: Install Package"
+			],
+			[
+				"co",
+				"Package Control: Install Package"
+			],
+			[
+				"control",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 170.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/front2/mysite/assets/src/template/head.html",
+		"/C/Users/front2/AppData/Roaming/Sublime Text 3/Packages/User/Emmet.sublime-settings",
+		"/C/Users/front2/Desktop/build/index.html",
+		"/C/Users/front2/Desktop/dist/dist/styles/main.css",
+		"/C/Users/front2/Downloads/src/src/styles/main.scss",
+		"/C/Users/front2/Downloads/src/src/blocks/modules/header/header.html",
+		"/C/Users/front2/Downloads/src/src/js/index.js",
+		"/C/Users/front2/Downloads/src/src/blocks/modules/header/header.scss",
+		"/C/Users/front2/mysite/assets/src/style/my.scss",
+		"/C/Users/front2/Downloads/src/src/views/index.html",
+		"/C/Users/front2/mysite/assets/src/template/footer.html",
+		"/C/Users/front2/mysite/assets/src/style/variables.scss",
+		"/C/Users/front2/mysite/assets/src/style/main.scss",
+		"/C/Users/front2/mysite/assets/build/index.html",
+		"/C/Users/front2/mysite/assets/src/js/main.js",
+		"/C/Users/front2/mysite/assets/src/index.html",
+		"/C/Users/front2/Desktop/dist/dist/index.html",
+		"/C/KATERINA/my/finfin/new/kategory-of-blog.html",
+		"/C/KATERINA/my/finfin/new/styles/styles.css",
+		"/C/Program Files/Sublime Text 3/sublime_text.exe",
+		"/C/KATERINA/my/finfin/021219/cards.html",
+		"/C/KATERINA/my/finfin/021219/styles/styles.css",
+		"/C/KATERINA/my/finfin/021219/js/main.js",
+		"/C/KATERINA/my/finfin/021219/list-credits.html",
+		"/C/KATERINA/my/finfin/281119/cards.html",
+		"/C/KATERINA/my/finfin/281119/js/main.js",
+		"/C/KATERINA/my/finfin/281119/styles/styles.css",
+		"/C/KATERINA/my/finfin/281119/list-credits.html",
+		"/C/KATERINA/my/finfin/251119/cards.html",
+		"/C/KATERINA/my/finfin/251119/list-credits.html",
+		"/C/KATERINA/my/finfin/251119/styles/styles.css",
+		"/C/KATERINA/EasyCrew/test-page_171019/test-page/js/main.js",
+		"/C/KATERINA/my/finfin/251119/js/main.js",
+		"/C/KATERINA/my/finfin/styles/styles.css",
+		"/C/KATERINA/my/finfin/list-credits.html",
+		"/C/KATERINA/my/finfin/js/main.js",
+		"/C/KATERINA/my/finfin/potreb-kredit.html",
+		"/C/KATERINA/smb/smb_081119/index.html",
+		"/C/KATERINA/smb/smb_081119/assets/js/core.js",
+		"/C/KATERINA/smb/smb_081119/assets/css/style.css",
+		"/C/KATERINA/smb/smb_081119/assets/js/fire.js",
+		"/C/KATERINA/my/finfin/kredit-karta.html",
+		"/C/KATERINA/evox/иврит/he.evox_new/css/main.min.css",
+		"/C/KATERINA/evox/иврит/he.evox_new/index.html",
+		"/C/KATERINA/evox/he.evoxlab/he/index.html",
+		"/C/KATERINA/evox/he.evoxlab/he/css/main.min.css",
+		"/C/KATERINA/evox/evoxtop_1572533701/test_041119_new/index.html",
+		"/C/KATERINA/evox/he.evoxlab_1572962754 (1)/he/index.html",
+		"/C/KATERINA/evox/he.evoxlab_1572962754/he/index.html",
+		"/C/KATERINA/my/finfin/mfo.html",
+		"/C/KATERINA/evox/evoxtop_1572533701/test_041119/js/scripts.min.js",
+		"/C/KATERINA/evox/evoxtop_1572533701/test_041119/css/main.min.css",
+		"/C/KATERINA/evox/evoxtop_1572533701/test/js/scripts.min.js",
+		"/C/KATERINA/evox/evoxtop_1572533701/test/css/main.min.css",
+		"/C/KATERINA/evox/evoxtop_1572533701/test/index.html",
+		"/C/KATERINA/evox/package_301019_evn/css/main.min.css",
+		"/C/KATERINA/evox/package_301019_evn/index.html",
+		"/C/KATERINA/evox/package_301019_evn/js/scripts.min.js",
+		"/C/KATERINA/evox/package_301019_evn/404.html",
+		"/C/KATERINA/evox/package_1572340455/js/scripts.min.js",
+		"/C/KATERINA/evox/package_1572340455/index.html",
+		"/C/KATERINA/evox/package_1572340455/404.html",
+		"/C/KATERINA/evox/package_1572340455/css/main.min.css",
+		"/C/KATERINA/evox/package_1572340455/www/index.html",
+		"/C/KATERINA/evox/package_1572340455/www/css/animate.css",
+		"/C/KATERINA/evox/package_1572340455/www/css/main.min.css",
+		"/C/KATERINA/evox/package_1572340455/www/js/scripts.min.js",
+		"/C/KATERINA/package_1570607278_new/evoxlab.com.ua_22102019/www/index.html",
+		"/C/KATERINA/package_1570607278_new/evoxlab.com.ua_22102019/www/js/scripts.min.js",
+		"/C/KATERINA/package_1570607278_new/evoxlab.com.ua_22102019/www/js/brief.min.js",
+		"/C/KATERINA/smb/по/по/index.html",
+		"/C/KATERINA/package_1570607278_new/evoxlab.com.ua_22102019/www/css/main.min.css",
+		"/C/KATERINA/package_1570607278_new/evoxlab.com.ua_21102019/www/index.html",
+		"/C/KATERINA/package_1570607278_new/evoxlab.com.ua_21102019/www/js/scripts.min.js",
+		"/C/KATERINA/package_1570607278_new/evoxlab.com.ua_21102019/www/css/main.min.css",
+		"/C/KATERINA/smb/site_/по/send.php",
+		"/C/KATERINA/package_1570607278_new/evoxlab.com.ua/www/css/main.min.css",
+		"/C/KATERINA/package_1570607278_new/evoxlab.com.ua/www/index.html",
+		"/C/KATERINA/package_1570607278_new/evoxlab.com.ua/www/js/scripts.min.js",
+		"/C/KATERINA/package_1570607278_new/evoxlab.com.ua/www/mail.php",
+		"/C/KATERINA/EasyCrew/test-page_151019_lastversion/test-page/news.html",
+		"/C/KATERINA/EasyCrew/test-page_151019_lastversion/test-page/js/main.js",
+		"/C/KATERINA/EasyCrew/test-page_151019_lastversion/test-page/project-desktop.html",
+		"/C/KATERINA/EasyCrew/test-page_151019_lastversion/test-page/style/style.css",
+		"/C/KATERINA/05_For developer/html/index.html",
+		"/C/KATERINA/EasyCrew/test-page_151019_morning/test-page/My Project.html",
+		"/C/KATERINA/EasyCrew/test-page_151019_morning/test-page/My Jobs_lm.html",
+		"/C/KATERINA/EasyCrew/test-page_151019_morning/test-page/style/style.css",
+		"/C/KATERINA/EasyCrew/test-page_151019_morning/test-page/My Jobs.html",
+		"/C/KATERINA/EasyCrew/test-page_151019_morning/test-page/My Project_lm.html",
+		"/C/KATERINA/EasyCrew/test-page_151019_morning/test-page/freelance-HOW-TO.html",
+		"/C/KATERINA/EasyCrew/test-page_151019_morning/test-page/blog.html",
+		"/C/KATERINA/package_1570607278/evoxlab.com.ua/www/css/main.min.css",
+		"/C/KATERINA/package_1570607278/evoxlab.com.ua/www/js/scripts.min.js",
+		"/C/KATERINA/package_1570607278/evoxlab.com.ua/www/index.html",
+		"/C/KATERINA/KAT/ff/styles/styles.css",
+		"/C/KATERINA/KAT/ff/kredit-karta.html",
+		"/C/KATERINA/EasyCrew/test-page_101019_morning/test-page/style/style.css",
+		"/C/KATERINA/EasyCrew/test-page_091019_evening/test-page/style/style.css",
+		"/C/KATERINA/EasyCrew/test-page_091019_evening/test-page/My Fr_Ag_lm.html",
+		"/C/KATERINA/EasyCrew/test-page_091019_evening/test-page/js/main.js",
+		"/C/KATERINA/EasyCrew/test-page_091019_evening/test-page/My Project_lm.html",
+		"/C/KATERINA/EasyCrew/test-page_091019_evening/test-page/My Jobs_lm.html",
+		"/C/KATERINA/EasyCrew/test-page_091019_evening/test-page/My Fr_Ag.html",
+		"/C/KATERINA/EasyCrew/test-page_091019_evening/test-page/js/My Fr_Ag_lm.html",
+		"/C/KATERINA/EasyCrew/test-page_081019_evening/test-page/news.html",
+		"/C/KATERINA/EasyCrew/test-page_081019_evening/test-page/style/style.css",
+		"/C/KATERINA/EasyCrew/test-page_081019_evening/test-page/My Jobs.html",
+		"/C/KATERINA/EasyCrew/test-page_081019_evening/test-page/js/main.js",
+		"/C/KATERINA/EasyCrew/test-page_081019_evening/test-page/My Jobs_lm.html",
+		"/C/KATERINA/EasyCrew/test-page_081019_evening/test-page/login.html",
+		"/C/KATERINA/EasyCrew/test-page_081019_evening/test-page/telegram-join.html",
+		"/C/KATERINA/EasyCrew/test-page_081019_evening/test-page/registration.html",
+		"/C/KATERINA/EasyCrew/test-page_031019_evening/test-page/js/main.js",
+		"/C/KATERINA/KAT/ff/index.html",
+		"/C/KATERINA/EasyCrew/test-page_031019_evening/test-page/style/style.css",
+		"/C/KATERINA/KAT/ff/potreb-kredit.html",
+		"/C/KATERINA/EasyCrew/test-page_031019_evening/test-page/blog.html",
+		"/C/KATERINA/EasyCrew/test-page_031019_evening/test-page/trainee-view.html",
+		"/C/KATERINA/EasyCrew/test-page_031019_evening/test-page/employer.html",
+		"/C/KATERINA/EasyCrew/test-page_031019_evening/test-page/freelancerProfile.html",
+		"/C/KATERINA/EasyCrew/test-page_031019_evening/test-page/employer-view.html",
+		"/C/KATERINA/EasyCrew/test-page_031019_evening/test-page/trainee.html",
+		"/C/KATERINA/EasyCrew/test-page_031019_evening/test-page/agency-view.html",
+		"/C/KATERINA/EasyCrew/test-page_031019_evening/test-page/agency.html",
+		"/C/KATERINA/EasyCrew/test-page_031019_evening/test-page/My Project.html",
+		"/C/KATERINA/EasyCrew/test-page_031019_evening/test-page/My Fr_Ag.html",
+		"/C/KATERINA/EasyCrew/test-page_031019_evening/test-page/My Jobs.html"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\front2\\Downloads\\cavaliers-master\\cavaliers-master\\css\\style.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

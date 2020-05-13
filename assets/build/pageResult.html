@@ -1,0 +1,1075 @@
+<!doctype html>
+<html lang="en">
+
+<link rel="stylesheet" href="css/main.min.css">
+
+<title>Result page</title>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="theme-color" content="#fff">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,500,700,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700,900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/main.min.css">
+    
+    
+    <header class="header">
+    	<div class="container container-page">
+    		<nav class="navbar navbar-expand-md">
+    			<a class="" href="#">
+    		  		<div class="main-logo">
+    		  			<img src="img/logo.png" alt="...">
+    		  		</div>
+    		  	</a>
+    		  	<button class="navbar-toggler" type="button"  data-target="#navbar1" aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
+    				    <span class="navbar-toggler-icon"></span>
+    			</button>
+    		  	<div class="collapse navbar-collapse" id="navbar1">
+    		  		<div class="d-flex justify-content-between"
+    			  		<a class="" href="#">
+    			  			<div class="main-logo d-flex d-md-none mb-4">
+    			  				<img src="img/logo.png" alt="...">
+    			  			</div>
+    			  		</a>
+    			  		<span class="close-menu d-block d-md-none">  </span>
+    		  		</div>
+    		    	<ul class="navbar-nav">
+    		    		<li class="nav-item dropdown">
+    		        		<a class="nav-link dropdown-toggle p-0" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dashboard</a>
+    		        		<div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+    		        			<div class="dropdown-menuWrap">
+    		          				<a class="dropdown-item" href="#">Link 1</a>
+    		          				<a class="dropdown-item" href="#">Link 2</a>
+    		          				<a class="dropdown-item" href="#">Link 3</a>
+    		          				<a class="dropdown-item" href="#">Link 4</a>
+    		          			</div>
+    		        		</div>
+    		      		</li>
+    		      		<li class="nav-item dropdown">
+    		        		<a class="nav-link dropdown-toggle p-0" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Inbox</a>
+    		        		<div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+    		        			<div class="dropdown-menuWrap">
+    			          			<a class="dropdown-item" href="#">Link 1</a>
+    		          				<a class="dropdown-item" href="#">Link 2</a>
+    		          				<a class="dropdown-item" href="#">Link 3</a>
+    		          				<a class="dropdown-item" href="#">Link 4</a>
+    		          			</div>
+    		        		</div>
+    		        	</li>
+    		        	<li class="nav-item dropdown">
+    		        		<a class="nav-link p-0" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Login</a>
+    		        		</div>
+    		        	</li>
+    		    	</ul>
+    			</div>
+    	    </nav>
+    	</div>
+    </header>
+</head>
+
+<body>
+
+<div class="pageResult pageRes">
+    <div class="container container-page">
+        <div class="content">
+        	<section class="thank-info">
+                <div class="row">
+                    <div class="col-12 d-flex flex-column align-items-center p-0">
+        				<div class="thank-info__img">
+        				</div>
+        				<div class="thank-info__title title">
+        					Thank you for submitting your request!
+                        </div>
+                        <div class="thank-info__text">
+                            We are working on creating best custom deal for you and will contact you within 2 days with the best deal. If any questions please feel free to connect to any of our representatives through chat or at 888-099-3233. Incase, you like anything from below, please feel free to select.
+                        </div>
+                        <button class="btn btn-ok">Ok</button>
+                    </div>
+                </div>
+                <span class="close"></span>
+        	</section>
+            <section class="change-requirements">
+                <div class="add-requirements">
+                    <div class="row w-100 m-0">
+                        <div class="col-12 d-flex p-0 flex-column justify-content-center align-atems-center">
+                            <div class="title">
+                                Add Location Data*
+                            </div>
+                            <form class="location-data d-flex">
+                                <div class="form-group">
+                                    <label for="zip-code"> Enter Zip Code:</label>
+                                    <div class="help-block">
+                                        <input type="text" class="form-control" id="zip-code" placeholder="Enter Zip Code" autocomplete="off">
+                                        <!--<span class="check"> </span>-->
+                                        <div class="help">Text for help</div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="enter-load"> Enter Load (MWH):</label>
+                                    <div class="help-block">
+                                        <input type="text" class="form-control" id="enter-load" placeholder="Enter Load (MWH)" autocomplete="off">
+                                        <!--<span class="check"> </span>-->
+                                        <div class="help">Text for help</div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="select-classification"> Select Classification:</label>
+                                    <select type="text" class="form-control select" id="select-classification" placeholder="">
+                                        <option selected="selected">Select Classification</option>
+                                        <option value="white">Office Buildings</option>
+                                        <option value="white">Manufacturing / Construction</option>
+                                        <option value="white">Retail Outlets</option>
+                                        <option value="white">Hotels/Restaurants/Recreational</option>
+                                        <option value="white">Hospitals</option>
+                                        <option value="white">University/College/School</option>
+                                        <option value="white">Public Works/Transportation</option>
+                                        <option value="white">Others</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group date">
+                                    <label for="datepicker"> Start Date:</label>
+                                    <input type='text' class='datepicker-here form-control' id="datepicker" autocomplete="off" data-language='en'>
+                                </div>
+                            </form>
+                            <div class="select-product d-flex flex-column">
+                                <div class="title d-flex justify-content-start justify-content-xl-center w-100">
+                                    Select products* 
+                                </div>
+                                <div class="select-product__container d-flex">
+                                    <div class="select-product__container-item">
+                                        <div class="select-product__container-item__btn grid-power">grid Power</div>
+                                    </div>
+                                    <div class="select-product__container-item">
+                                        <div class="select-product__container-item__btn solar-energy">Solar Energy</div>
+                                    </div>
+                                    <div class="select-product__container-item">
+                                        <div class="select-product__container-item__btn natural-gas">Natural Gas</div>
+                                    </div>
+                                    <div class="select-product__container-item"> 
+                                        <div class="select-product__container-item__btn onside-generation">Onside Generation</div>
+                                    </div>
+                                    <div class="select-product__container-item">
+                                        <div class="select-product__container-item__btn demand-response">Demand Response</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="add-details">
+                                <div class="add-details__top d-flex justify-content-between align-items-center">
+                                    <div class="form-title">
+                                        <p class="font-weight-bold">Add more details</p>
+                                    </div>
+                                    <div class="line hidden"></div>
+                                    <div class="collapse-buttons expend-block d-flex">
+                                    </div>
+                                </div>
+                                <div class="add-details__form visible">
+                                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                                        <div class="form-group d-flex">
+                                            <label for="Esiid"> Enter your ESIID:</label>
+                                            <div class="help-block">
+                                                <input type="text" class="form-control  mb-0" id="Esiid" placeholder="Enter your ESIID">
+                                            <!--<span class="check"> </span>-->
+                                                <div class="help">Text for help</div>
+                                            </div>
+                                        </div>
+                                        <p class="align-self-center "> OR </p>
+                                        <div class="d-flex align-items-center">
+                                            <div class="form-group d-flex">
+                                            <div class="help-block d-flex flex-column flex-xl-row">
+                                                <div class="upload">Upload your Bills:</div>
+                                                <label for="fileUpload"> ...Browse Files </label>
+                                                <div class="d-flex flex-column">
+                                                    <input type="file" class="fileUpload" id="fileUpload" placeholder="">
+                                                </div>
+                                                <div class="help bills">Text for help</div>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">I authorize to request my load profile from the utility</label>
+                                    </div>
+                                    <div class="form-group d-flex align-atems-center pb-2 mb-2 mb-md-4">
+                                        <label for="preferedSuppliers" class="align-self-start align-self-xl-center"> Enter prefered suppliers:</label>
+                                        <div class="d-flex flex-column">
+                                            <input type="text" class="form-control" id="preferedSuppliers" placeholder="Enter suppliers name">
+                                        <!--<span class="check"> </span>-->
+                                        </div>
+                                    </div>
+                                    <div class="form-group d-flex">
+                                        <label for="suppliersToExclude" class="pt-2"> Any suppliers to exclude:</label>
+                                        <div class="d-flex flex-column">
+                                            <div class="d-flex flex-column">
+                                                <input type="text" class="form-control" id="suppliersToExclude" placeholder="Enter suppliers name">
+                                            <!--<span class="check"> </span>-->
+                                            </div>
+                                            <div class="d-flex company">
+                                                <div class="company-item">company 1  <span> </span>
+                                                </div>
+                                                <div class="company-item">company 2 <span> </span> </div>
+                                                <div class="company-item newCompany"> 
+                                                    <div class="result mb-0"> </div> 
+                                                    <span> </span> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="choose-product d-flex flex-column">
+                            	<div class="choose-product__item hidden" id="GP">
+                            		<div class="item-title"><div class="item-title__logo"> </div>Power</div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <form>
+                                                <div class="form-group d-flex flex-column pb-0 mb-3 pb-md-2 mb-md-4">
+                                                    <label for="r1">Product Requirements*</label>
+                                                    <p>Fuel Mix ( <span class="l_r1"></span>% Renewable)</p>
+                                                    <input type="range" class="range" id="r1" name="amount_money" min="0" max="100" value="0" step="1" oninput="f1()">
+                                                </div>
+                                                <div class="form-group d-flex flex-column mb-0">
+                                                    <label for="rateType" class="select-label pb-2 w-100"> Rate type
+                                                    </label>
+                                                    <select class="form-control select" id="rateType">
+                                                        <option selected="selected">Select option</option>
+                                                        <option value="FIXED">Fixed</option>
+                                                        <option value="INDEXED">Index</option>
+                                                        <option value="VARIABLE">Variable</option>
+                                                        <option value="PREPAID">Prepaid</option>
+                                                        <option value="Green">Green</option>
+                                                    </select>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                            	</div>
+								<div class="choose-product__item hidden" id="SE">
+									<div class="item-title"><div class="item-title__logo"> </div>Solar Energy</div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <form>
+                                                <div class="form-group d-flex flex-column pb-0 mb-3 pb-md-2 mb-md-4">
+                                                    <label for="r1__SE">Tell us how much of your load needs to be covered by solar</label>
+                                                    <p>Fuel Mix ( <span class="l_r1"></span>% Renewable)</p>
+                                                    <input type="range" class="range__SE" id="r1__SE" name="amount_money" min="0" max="100" value="0" step="1" oninput="f__SE()">
+                                                </div>
+                                                <div class="form-group d-flex flex-column pb-0 mb-3 pb-md-2 mb-md-4">
+                                                    <label for="select__SE1" class="select-label pb-2 w-100"> What do you and your company think about RECs?
+                                                    </label>
+                                                    <select class="form-control select" id="select__SE1">
+                                                        <option selected="selected">Select option</option>
+                                                        <option>No idea what you talking about</option>
+                                                        <option>Dont's care</option>
+                                                        <option>In favor</option>
+                                                        <option>I want actual solar</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group d-flex flex-column pb-0 mb-3 pb-md-2 mb-md-4">
+                                                    <label for="select__SE2" class="select-label se2 pb-2 w-100"> Do you want a separate quote for power and solar or one quote for all your needs?
+                                                    </label>
+                                                    <select class="form-control select" id="select__SE2">
+                                                        <option selected="selected">Select option</option>
+                                                        <option>Separate (PPAs, ESAs etc.)</option>
+                                                        <option>One (One price!)</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group mb-0 d-flex flex-column">
+                                                    <label for="select__SE3" class="select-label pb-2 w-100">Do you want pointing rights?
+                                                    </label>
+                                                    <select class="form-control select" id="select__SE3">
+                                                        <option selected="selected">Select option</option>
+                                                        <option value="yes">Yes</option>
+                                                        <option value="no">No</option>
+                                                    </select>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                            	</div>
+								<div class="choose-product__item hidden" id="NG">
+                                    <div class="item-title"><div class="item-title__logo"> </div>Natural Gas</div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <form>
+                                                <div class="form-group d-flex flex-column mb-3 mb-md-4">
+                                                    <label for="label__NG1" class="d-none"></label>
+                                                    <input type="text" class="form-control" id="label__NG1" placeholder="Estimate your usage (therms)" autocomplete="off">
+                                                </div>
+                                                <div class="form-group d-flex flex-column pb-0 mb-3 pb-md-2 mb-md-4">
+                                                    <label for="label__NG2"></label>
+                                                    <input type="email" class="form-control" id="label__NG2" placeholder="Your Monthly Bill" autocomplete="off">
+                                                </div>
+                                                <div class="form-group mb-0 d-flex flex-column">
+                                                    <label for="select__NG" class="select-label pb-2 w-100">Plan preference
+                                                    </label>
+                                                    <select class="form-control select" id="select__NG">
+                                                        <option selected="selected">Select option</option>
+                                                        <option>Fixed</option>
+                                                        <option>Variable</option>
+                                                    </select>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            	<div class="choose-product__item hidden" id="OG">
+                                    <div class="item-title"><div class="item-title__logo"> </div>Onsite Generation</div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <form>
+                                                <div class="form-group d-flex flex-column pb-0 mb-3 pb-md-2 mb-md-4">
+                                                    <label for="select__OG" class="select-label pb-2 w-100">Onsite Generation Requirement
+                                                    </label>
+                                                    <select class="form-control select" id="select__OG">
+                                                        <option selected="selected">Select option</option>
+                                                        <option value="solar">Solar</option>
+                                                        <option value="solarAndStorage">Solar and Storage</option>
+                                                        <option value="storage">Storage Only</option>
+                                                        <option value="ngBackup">NG Backup</option>
+                                                        <option value="dieselBackup">Diesel Backup</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group mb-0">
+                                                    <label for="label__OG" class="d-none mb-0"></label>
+                                                    <input type="text" class="form-control" id="label__OG" placeholder="Siza (mW)" autocomplete="off">
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            	<div class="choose-product__item hidden" id="DR">
+                                    <div class="item-title"><div class="item-title__logo"> </div>Demand Response</div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <form>
+                                                <div class="form-group d-flex flex-column pb-0 mb-3 pb-md-2 mb-md-4">
+                                                    <label for="select__DR1" class="mb-0 select-label  w-100">
+                                                    </label>
+                                                    <select class="form-control select" id="select__DR1">
+                                                        <option selected="selected">Select the region</option>
+                                                        <option value="white">region 1</option>
+                                                        <option value="white">region 2 </option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group d-flex flex-column pb-0 mb-3 pb-md-2 mb-md-4">
+                                                    <label for="select__DR2" class="mb-0 select-label w-100">
+                                                    </label>
+                                                    <select class="form-control select" id="select__DR2">
+                                                        <option selected="selected">Select the program</option>
+                                                        <option value="white">program 1</option>
+                                                        <option value="white">program 2</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group d-flex flex-column pb-0 mb-3 pb-md-2 mb-md-4">
+                                                    <label for="label__check" class="pb-2">Do you currently participate in any program?</label>
+
+                                                    <div>
+                                                    <input type="radio" name="rb" id="rb1" checked> <label for="rb1" class="mb-2">Yes</label>
+                                                    </div>
+
+                                                    <div>
+                                                    <input type="radio" name="rb" id="rb2"> <label for="rb2">No</label>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group mb-0">
+                                                    <label for="label__DR4" class="d-none mb-0"></label>
+                                                    <input type="text" class="form-control" id="label__DR4" placeholder="Participating program name" autocomplete="off">
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row add-details__footer w-100 m-0 align-items-center">
+                    <div class="col-12 col-md-4 ">
+                        <div class="addMoreLocation">
+                            <p class="mr-2">Add more location</p>
+                            <div class="click__more"></div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 col-lg-4 text-center"> 
+                        <div class="submitDetails">
+                            <button class="btn btn-sub"> Submit Details </button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-5 col-lg-4 d-flex justify-content-center justify-content-md-end align-items-center p-0">
+                        <div class="change-requirements__label"> Change your requirements </div>
+                        <div class="click__visible-block expended-block"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="result-block">
+                <div class="d-flex result-block__sort justify-content-between align-items-center">
+                    <div class="form-group result-block__sort-btn">
+                        <label for="sortResult" class=""></label>
+                        <select class="form-control" id="sortResult">
+                          <option>Sort By</option>
+                        </select>
+                    </div>
+                    <div class="collapseAll d-flex pr-2">
+                        <div class="expendBlock"></div>
+                        <div class="collapseBlock"></div>
+                        <p class="">Collapse / Expand All</p>
+                    </div>
+                </div>
+
+                <div class="result-blockWrap">
+                    <div class="result-block__container">
+                        <div class="delete-block"></div>
+                        <div class="result-block__container-tabs d-flex justify-content-between">
+                            <div class="d-flex w-100 w-xl-auto order-2 order-xl-1 justify-content-start flex-column flex-md-row">
+                                <div class="tab-item" id="zipCode">
+                                    <div class="d-flex flex-column flex-xl-row text-left">
+                                    ZIP CODE: <span>72005</span> 
+                                    </div>
+                                </div>
+                                <div class="tab-item" id="load">
+                                    <div class="d-flex flex-column flex-xl-row text-left">
+                                        LOAD: <span>0,35 MWH</span>
+                                    </div>
+                                </div>
+                                <div class="tab-item" id="classification">
+                                    <div class="d-flex flex-column flex-xl-row text-left">
+                                        Classification: <span>Office Buiding</span>
+                                    </div>
+                                </div>
+                                <div class="tab-item" id="startDate">
+                                    <div class="d-flex flex-column flex-xl-row text-left">
+                                        Start Date: <span>19.11.2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex w-100 w-xl-auto order-1 order-xl-2 justify-content-between w-100 align-items-center">
+                                <div class="tab-item border-right-0 m-auto" id="selectType">
+                                    <div class="form-group mb-0">
+                                        <div class="dropdown">
+                                                <a class="dropdown-toggle" type="" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <span class="top-menu-lang-icon d-flex align-items-center"><p class="text-left mb-0">Filter By Energy Type</p></span>
+                                                </a>
+                                                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                                    <div class="dropdown-item"></div>
+                                                    <div class="dropdown-item"></div>
+                                                    <div class="dropdown-item"></div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-item pr-0 mb-0" id="collapsed-bl">
+                                    <div class="click-block collapsed-block">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="result-block__containerWrap">
+                            <div class="result-block__container-row d-flex flex-column flex-md-row justify-content-between">
+                                <div class="row-item mb-4 mb-md-0">
+                                    <a href="#" class="logoCompany">
+                                        <img src="img/logo-1.png" class="logoCompany-img">
+                                    </a>
+                                </div>
+                                <div class="row-item">
+                                    <div class="dealNumber d-flex flex-column">
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label">Deal Number</div>
+                                            <div class="row-item__info">DirMF123_21</div>
+                                        </div>
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label">Deal Type</div>
+                                            <div class="row-item__type d-flex" id="type1">
+                                                <img src="img/solar.png" class="row-item__type-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-item">
+                                    <div class="rateType d-flex flex-column">
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label">Rate Type </div>
+                                            <div class="row-item__info">FIXED</div>
+                                        </div>
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label">Term</div>
+                                            <div class="row-item__info">6</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-item">
+                                    <div class="contactRating d-flex flex-column">
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label text-left text-xl-center">Contract Rating </div>
+                                            <div class="d-flex flex-column">
+                                                <div class="row-item__rating"></div>
+                                                <div class="row-item__end text-center">Ends in 1 Day    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-item">
+                                    <div class="price d-flex flex-column">
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label">Price </div>
+                                            <div class="row-item__price">$35.91</div>
+                                        </div>
+                                        <a href="#" class="row-item__more text-center text-md-left"> More Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="result-block__container-row d-flex flex-column flex-md-row justify-content-between">
+                                <div class="row-item mb-4 mb-md-0">
+                                    <a href="#" class="logoCompany">
+                                        <img src="img/logo-2.png" class="logoCompany-img">
+                                    </a>
+                                </div>
+                                <div class="row-item">
+                                    <div class="dealNumber d-flex flex-column">
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label">Deal Number</div>
+                                            <div class="row-item__info">DirMF123_21</div>
+                                        </div>
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label">Deal Type</div>
+                                            <div class="row-item__type d-flex" id="type1">
+                                                <img src="img/power.png" class="row-item__type-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-item">
+                                    <div class="rateType d-flex flex-column">
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label">Rate Type </div>
+                                            <div class="row-item__info">FIXED</div>
+                                        </div>
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label">Term</div>
+                                            <div class="row-item__info">6</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-item">
+                                    <div class="contactRating d-flex flex-column">
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label text-left text-xl-center">Contract Rating </div>
+                                            <div class="d-flex flex-column">
+                                                <div class="row-item__rating"></div>
+                                                <div class="row-item__end text-center">Ends in 1 Day    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-item">
+                                    <div class="price d-flex flex-column">
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label">Price </div>
+                                            <div class="row-item__price">$35.91</div>
+                                        </div>
+                                        <a href="#" class="row-item__more text-center text-md-left"> More Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="result-block__container-row d-flex flex-column flex-md-row justify-content-between">
+                                <div class="row-item mb-4 mb-md-0">
+                                    <a href="#" class="logoCompany">
+                                        <img src="img/logo-3.png" class="logoCompany-img">
+                                    </a>
+                                </div>
+                                <div class="row-item">
+                                    <div class="dealNumber d-flex flex-column">
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label">Deal Number</div>
+                                            <div class="row-item__info">DirMF123_21</div>
+                                        </div>
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label">Deal Type</div>
+                                            <div class="row-item__type d-flex" id="type1">
+                                                <img src="img/solar.png" class="row-item__type-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-item">
+                                    <div class="rateType d-flex flex-column">
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label">Rate Type </div>
+                                            <div class="row-item__info">FIXED</div>
+                                        </div>
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label">Term</div>
+                                            <div class="row-item__info">6</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-item">
+                                    <div class="contactRating d-flex flex-column">
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label text-left text-xl-center">Contract Rating </div>
+                                            <div class="d-flex flex-column">
+                                                <div class="row-item__rating"></div>
+                                                <div class="row-item__end text-center">Ends in 1 Day    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-item">
+                                    <div class="price d-flex flex-column">
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label">Price </div>
+                                            <div class="row-item__price">$35.91</div>
+                                        </div>
+                                        <a href="#" class="row-item__more text-center text-md-left"> More Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="result-block__container">
+                        <div class="delete-block"></div>
+                        <div class="result-block__container-tabs d-flex justify-content-between">
+                            <div class="d-flex w-100 w-xl-auto order-2 order-xl-1 justify-content-start flex-column flex-md-row">
+                                <div class="tab-item" id="zipCode">
+                                    <div class="d-flex flex-column flex-xl-row text-left">
+                                    ZIP CODE: <span>72005</span> 
+                                    </div>
+                                </div>
+                                <div class="tab-item" id="load">
+                                    <div class="d-flex flex-column flex-xl-row text-left">
+                                        LOAD: <span>0,35 MWH</span>
+                                    </div>
+                                </div>
+                                <div class="tab-item" id="classification">
+                                    <div class="d-flex flex-column flex-xl-row text-left">
+                                        Classification: <span>Office Buiding</span>
+                                    </div>
+                                </div>
+                                <div class="tab-item" id="startDate">
+                                    <div class="d-flex flex-column flex-xl-row text-left">
+                                        Start Date: <span>19.11.2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex w-100 w-xl-auto order-1 order-xl-2 justify-content-between w-100 align-items-center">
+                                <div class="tab-item border-right-0 m-auto" id="selectType">
+                                    <div class="form-group mb-0">
+                                        <div class="dropdown">
+                                                <a class="dropdown-toggle" type="" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <span class="top-menu-lang-icon d-flex align-items-center"><p class="text-left mb-0">Filter By Energy Type</p></span>
+                                                </a>
+                                                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                                    <div class="dropdown-item"></div>
+                                                    <div class="dropdown-item"></div>
+                                                    <div class="dropdown-item"></div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-item pr-0 mb-0" id="collapsed-bl">
+                                    <div class="click-block collapsed-block">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="result-block__containerWrap">
+                            <div class="result-block__container-row d-flex flex-column flex-md-row justify-content-between">
+                                <div class="row-item mb-4 mb-md-0">
+                                    <a href="#" class="logoCompany">
+                                        <img src="img/logo-1.png" class="logoCompany-img">
+                                    </a>
+                                </div>
+                                <div class="row-item">
+                                    <div class="dealNumber d-flex flex-column">
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label">Deal Number</div>
+                                            <div class="row-item__info">DirMF123_21</div>
+                                        </div>
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label">Deal Type</div>
+                                            <div class="row-item__type d-flex" id="type1">
+                                                <img src="img/solar.png" class="row-item__type-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-item">
+                                    <div class="rateType d-flex flex-column">
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label">Rate Type </div>
+                                            <div class="row-item__info">FIXED</div>
+                                        </div>
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label">Term</div>
+                                            <div class="row-item__info">6</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-item">
+                                    <div class="contactRating d-flex flex-column">
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label text-left text-xl-center">Contract Rating </div>
+                                            <div class="d-flex flex-column">
+                                                <div class="row-item__rating"></div>
+                                                <div class="row-item__end text-center">Ends in 1 Day    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-item">
+                                    <div class="price d-flex flex-column">
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label">Price </div>
+                                            <div class="row-item__price">$35.91</div>
+                                        </div>
+                                        <a href="#" class="row-item__more text-center text-md-left"> More Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="result-block__container-row d-flex flex-column flex-md-row justify-content-between">
+                                <div class="row-item mb-4 mb-md-0">
+                                    <a href="#" class="logoCompany">
+                                        <img src="img/logo-2.png" class="logoCompany-img">
+                                    </a>
+                                </div>
+                                <div class="row-item">
+                                    <div class="dealNumber d-flex flex-column">
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label">Deal Number</div>
+                                            <div class="row-item__info">DirMF123_21</div>
+                                        </div>
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label">Deal Type</div>
+                                            <div class="row-item__type d-flex" id="type1">
+                                                <img src="img/power.png" class="row-item__type-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-item">
+                                    <div class="rateType d-flex flex-column">
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label">Rate Type </div>
+                                            <div class="row-item__info">FIXED</div>
+                                        </div>
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label">Term</div>
+                                            <div class="row-item__info">6</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-item">
+                                    <div class="contactRating d-flex flex-column">
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label text-left text-xl-center">Contract Rating </div>
+                                            <div class="d-flex flex-column">
+                                                <div class="row-item__rating"></div>
+                                                <div class="row-item__end text-center">Ends in 1 Day    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-item">
+                                    <div class="price d-flex flex-column">
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label">Price </div>
+                                            <div class="row-item__price">$35.91</div>
+                                        </div>
+                                        <a href="#" class="row-item__more text-center text-md-left"> More Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="result-block__container-row d-flex flex-column flex-md-row justify-content-between">
+                                <div class="row-item mb-4 mb-md-0">
+                                    <a href="#" class="logoCompany">
+                                        <img src="img/logo-3.png" class="logoCompany-img">
+                                    </a>
+                                </div>
+                                <div class="row-item">
+                                    <div class="dealNumber d-flex flex-column">
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label">Deal Number</div>
+                                            <div class="row-item__info">DirMF123_21</div>
+                                        </div>
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label">Deal Type</div>
+                                            <div class="row-item__type d-flex" id="type1">
+                                                <img src="img/solar.png" class="row-item__type-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-item">
+                                    <div class="rateType d-flex flex-column">
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label">Rate Type </div>
+                                            <div class="row-item__info">FIXED</div>
+                                        </div>
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label">Term</div>
+                                            <div class="row-item__info">6</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-item">
+                                    <div class="contactRating d-flex flex-column">
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label text-left text-xl-center">Contract Rating </div>
+                                            <div class="d-flex flex-column">
+                                                <div class="row-item__rating"></div>
+                                                <div class="row-item__end text-center">Ends in 1 Day    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-item">
+                                    <div class="price d-flex flex-column">
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label">Price </div>
+                                            <div class="row-item__price">$35.91</div>
+                                        </div>
+                                        <a href="#" class="row-item__more text-center text-md-left"> More Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="result-block__container newResultBlockContainer">
+                        <div class="delete-block"></div>
+                        <div class="result-block__container-tabs d-flex justify-content-between">
+                            <div class="d-flex w-100 w-xl-auto order-2 order-xl-1 justify-content-start flex-column flex-md-row">
+                                <div class="tab-item" id="zipCode">
+                                    <div class="d-flex flex-column flex-xl-row text-left">
+                                    ZIP CODE: <span>***</span> 
+                                    </div>
+                                </div>
+                                <div class="tab-item" id="load">
+                                    <div class="d-flex flex-column flex-xl-row text-left">
+                                        LOAD: <span>***</span>
+                                    </div>
+                                </div>
+                                <div class="tab-item" id="classification">
+                                    <div class="d-flex flex-column flex-xl-row text-left">
+                                        Classification: <span>***</span>
+                                    </div>
+                                </div>
+                                <div class="tab-item" id="startDate">
+                                    <div class="d-flex flex-column flex-xl-row text-left">
+                                        Start Date: <span>***</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex w-100 w-xl-auto order-1 order-xl-2 justify-content-between w-100 align-items-center">
+                                <div class="tab-item border-right-0 m-auto" id="selectType">
+                                    <div class="form-group mb-0">
+                                        <div class="dropdown">
+                                                <a class="dropdown-toggle" type="" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <span class="top-menu-lang-icon d-flex align-items-center"><p class="text-left mb-0">Filter By Energy Type</p></span>
+                                                </a>
+                                                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                                    <div class="dropdown-item"></div>
+                                                    <div class="dropdown-item"></div>
+                                                    <div class="dropdown-item"></div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-item pr-0 mb-0" id="collapsed-bl">
+                                    <div class="click-block collapsed-block">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="result-block__containerWrap">
+                            <div class="result-block__container-row d-flex flex-column flex-md-row justify-content-between">
+                                <div class="row-item mb-4 mb-md-0">
+                                    <a href="#" class="logoCompany">
+                                        <img src="img/logo-1.png" class="logoCompany-img">
+                                    </a>
+                                </div>
+                                <div class="row-item">
+                                    <div class="dealNumber d-flex flex-column">
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label">Deal Number</div>
+                                            <div class="row-item__info">DirMF123_21</div>
+                                        </div>
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label">Deal Type</div>
+                                            <div class="row-item__type d-flex" id="type1">
+                                                <img src="img/solar.png" class="row-item__type-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-item">
+                                    <div class="rateType d-flex flex-column">
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label">Rate Type </div>
+                                            <div class="row-item__info">FIXED</div>
+                                        </div>
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label">Term</div>
+                                            <div class="row-item__info">6</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-item">
+                                    <div class="contactRating d-flex flex-column">
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label text-left text-xl-center">Contract Rating </div>
+                                            <div class="d-flex flex-column">
+                                                <div class="row-item__rating"></div>
+                                                <div class="row-item__end text-center">Ends in 1 Day    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-item">
+                                    <div class="price d-flex flex-column">
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label">Price </div>
+                                            <div class="row-item__price">$35.91</div>
+                                        </div>
+                                        <a href="#" class="row-item__more text-center text-md-left"> More Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="result-block__container-row d-flex flex-column flex-md-row justify-content-between">
+                                <div class="row-item mb-4 mb-md-0">
+                                    <a href="#" class="logoCompany">
+                                        <img src="img/logo-2.png" class="logoCompany-img">
+                                    </a>
+                                </div>
+                                <div class="row-item">
+                                    <div class="dealNumber d-flex flex-column">
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label">Deal Number</div>
+                                            <div class="row-item__info">DirMF123_21</div>
+                                        </div>
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label">Deal Type</div>
+                                            <div class="row-item__type d-flex" id="type1">
+                                                <img src="img/power.png" class="row-item__type-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-item">
+                                    <div class="rateType d-flex flex-column">
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label">Rate Type </div>
+                                            <div class="row-item__info">FIXED</div>
+                                        </div>
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label">Term</div>
+                                            <div class="row-item__info">6</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-item">
+                                    <div class="contactRating d-flex flex-column">
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label text-left text-xl-center">Contract Rating </div>
+                                            <div class="d-flex flex-column">
+                                                <div class="row-item__rating"></div>
+                                                <div class="row-item__end text-center">Ends in 1 Day    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-item">
+                                    <div class="price d-flex flex-column">
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label">Price </div>
+                                            <div class="row-item__price">$35.91</div>
+                                        </div>
+                                        <a href="#" class="row-item__more text-center text-md-left"> More Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="result-block__container-row d-flex flex-column flex-md-row justify-content-between">
+                                <div class="row-item mb-4 mb-md-0">
+                                    <a href="#" class="logoCompany">
+                                        <img src="img/logo-3.png" class="logoCompany-img">
+                                    </a>
+                                </div>
+                                <div class="row-item">
+                                    <div class="dealNumber d-flex flex-column">
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label">Deal Number</div>
+                                            <div class="row-item__info">DirMF123_21</div>
+                                        </div>
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label">Deal Type</div>
+                                            <div class="row-item__type d-flex" id="type1">
+                                                <img src="img/solar.png" class="row-item__type-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-item">
+                                    <div class="rateType d-flex flex-column">
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label">Rate Type </div>
+                                            <div class="row-item__info">FIXED</div>
+                                        </div>
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label">Term</div>
+                                            <div class="row-item__info">6</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-item">
+                                    <div class="contactRating d-flex flex-column">
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label text-left text-xl-center">Contract Rating </div>
+                                            <div class="d-flex flex-column">
+                                                <div class="row-item__rating"></div>
+                                                <div class="row-item__end text-center">Ends in 1 Day    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row-item">
+                                    <div class="price d-flex flex-column">
+                                        <div class="d-flex flex-row flex-md-column mb-3 mb-md-0 align-items-center align-items-md-start">
+                                            <div class="row-item__label">Price </div>
+                                            <div class="row-item__price">$35.91</div>
+                                        </div>
+                                        <a href="#" class="row-item__more text-center text-md-left"> More Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+           <!-- <section class="submit-details__all d-flex justify-content-center">
+                <button class="btn btn-light-color btn-details">
+                    SUBMIT DETAILs
+                </button>
+            </section> -->
+        </div> 
+    </div>
+      
+    <script src="js/main.min.js"></script>
+    
+    <footer class="footer">
+    	<div class="container container-page">
+    		<p class="copyright"> © 2020, ENERGYX | All Rights Reserved </p>
+    	</div>
+    </footer>
+</div>
+
+</body>
+</html>
